@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery - Sopiah</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+    }
+    nav {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    h1 {
+      text-align: center;
+      margin-top: 20px;
+      color: #333;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 10px;
+      margin: 20px auto;
+      max-width: 800px;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="profil.html">Profil</a> |
+    <a href="about.html">About</a> |
+    <a href="galery.html">Gallery</a> |
+    <a href="kontak.html">Kontak</a>
+  </nav>
+  <h1>Gallery</h1>
+  <div class="gallery">
+    <img src="sopiah.jpg" alt="Sopiah Image">
+    <img src="d.jpg" alt="D Image">
+    <img src="piah.jpg" alt="Piah Image">
+    <img src="IMG_6955.jpg" alt="IMG_6955 Image">
+    <img src="IMG_6970.jpg" alt="IMG_6970 Image">
+    <img src="IMG_6977.jpg" alt="IMG_6977 Image">
+    <!-- Add more images here -->
+  </div>
+</body>
+</html>
